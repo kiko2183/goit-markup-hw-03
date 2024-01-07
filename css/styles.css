@@ -4,6 +4,15 @@
   box-sizing: border-box;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+  white-space: nowrap;
+}
+
 body {
   font-family: Roboto, sans-serif;
   color: #434455;
@@ -38,7 +47,8 @@ img {
 .container {
   width: 1158px;
   margin: 0 auto;
-  padding: 0 15px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 /*-------------------header-------------------*/
@@ -55,6 +65,7 @@ img {
 
 .header-navigation {
   display: flex;
+  align-items: center;
 }
 
 .nav-title {
@@ -83,7 +94,6 @@ img {
 .navіgation-text {
   display: flex;
   gap: 40px;
-  align-items: center;
 }
 
 .navigation {
@@ -176,13 +186,6 @@ img {
 /*----------------------------------------------*/
 
 /*-------------------Section2-------------------*/
-
-.visually-hidden {
-  position: absolute;
-  top: -9999px;
-  left: -9999px;
-  visibility: hidden;
-}
 
 .strategy {
   padding-top: 120px;
