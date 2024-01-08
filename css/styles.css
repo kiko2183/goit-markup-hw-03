@@ -277,7 +277,7 @@ img {
 
 /*-------------------Section4-------------------*/
 
-.list-app-text {
+.list-program {
   padding: 32px 16px;
   border: 1px #e7e9fc solid;
 }
@@ -295,6 +295,7 @@ img {
 }
 
 .list-app-text {
+  border: 1px #e7e9fc solid;
   width: calc((100% - 48px) / 3);
 }
 
