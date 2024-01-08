@@ -59,12 +59,12 @@ img {
 }
 
 .start-header {
+  padding-top: 24px;
+  padding-bottom: 24px;
   padding-left: 15px;
   padding-right: 15px;
   display: flex;
   justify-content: space-between;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .header-navigation {
@@ -281,11 +281,8 @@ img {
 
 /*-------------------Section4-------------------*/
 
-.app-container {
-  border-top: none;
-}
-
 .list-program {
+  border-top: none;
   padding: 32px 16px;
   border: 1px #e7e9fc solid;
 }
