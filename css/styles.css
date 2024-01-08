@@ -217,6 +217,10 @@ img {
 
 /*-------------------Section3-------------------*/
 
+.list-names {
+  padding: 32px;
+}
+
 .team {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -229,15 +233,13 @@ img {
 .peple {
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
-  width: calc((100% - 72px) / 4);
 }
 
 .peple-list {
-  border: 5px solid #ffffff;
   display: flex;
   gap: 24px;
-  max-width: 264px;
   text-align: center;
+  width: calc((100% - 72px) / 4);
 }
 
 .our-team {
@@ -274,9 +276,19 @@ img {
 
 /*-------------------Section4-------------------*/
 
+.list-app {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
 .apps {
   padding-top: 120px;
   padding-bottom: 120px;
+}
+
+.list-app-text {
+  border: 1px #e7e9fc solid;
 }
 
 .title-app {
@@ -296,12 +308,17 @@ img {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-top: 32px;
+  margin-bottom: 8px;
+  margin-left: 16px;
 }
 
 .under-app {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
+  margin-bottom: 32px;
+  margin-left: 16px;
 }
 
 /*--------------------------------------------*/
