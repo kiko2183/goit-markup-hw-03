@@ -93,7 +93,7 @@ img {
   letter-spacing: 0.03em;
 }
 
-.navіgation-text {
+.navigation-text {
   display: flex;
   gap: 40px;
 }
@@ -140,9 +140,6 @@ img {
   padding-top: 188px;
   padding-bottom: 188px;
   background-color: #2e2f42;
-}
-
-.title-container {
 }
 
 .title-text {
