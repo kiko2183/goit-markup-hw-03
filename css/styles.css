@@ -61,10 +61,14 @@ img {
 .start-header {
   padding-top: 24px;
   padding-bottom: 24px;
-  padding-left: 15px;
-  padding-right: 15px;
+
   display: flex;
   justify-content: space-between;
+  width: 1158px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-top: none;
 }
 
 .header-navigation {
@@ -282,9 +286,9 @@ img {
 /*-------------------Section4-------------------*/
 
 .list-program {
-  border-top: none;
   padding: 32px 16px;
   border: 1px #e7e9fc solid;
+  border-top: none;
 }
 
 .list-app {
