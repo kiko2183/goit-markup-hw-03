@@ -49,14 +49,13 @@ img {
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
+  border-top: none;
 }
 
 /*-------------------header-------------------*/
 
 .start {
   border-bottom: 1px #e7e9fc solid;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .start-header {
@@ -64,6 +63,8 @@ img {
   padding-right: 15px;
   display: flex;
   justify-content: space-between;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-navigation {
