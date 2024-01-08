@@ -299,7 +299,6 @@ img {
 }
 
 .list-app-text {
-  border: 1px #e7e9fc solid;
   width: calc((100% - 48px) / 3);
 }
 
@@ -328,8 +327,6 @@ img {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
-  margin-bottom: 32px;
-  margin-left: 16px;
 }
 
 /*--------------------------------------------*/
