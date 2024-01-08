@@ -280,6 +280,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
+  row-gap: 48px;
 }
 
 .apps {
@@ -289,6 +290,7 @@ img {
 
 .list-app-text {
   border: 1px #e7e9fc solid;
+  width: calc((100% - 48px) / 3);
 }
 
 .title-app {
@@ -300,6 +302,7 @@ img {
   line-height: 1.11;
   letter-spacing: 0.03em;
   text-align: center;
+  margin-bottom: 72px;
 }
 
 .app {
